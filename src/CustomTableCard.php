@@ -3,12 +3,12 @@
 namespace Mako\CustomTableCard;
 
 use Laravel\Nova\Card;
-use Laravel\Nova\Makeable;
+//use Laravel\Nova\Makeable;
 use function in_array;
 
 class CustomTableCard extends Card
 {
-    use Makeable;
+//    use Makeable;
 
     public static $instanceCount = 0;
 
@@ -24,7 +24,7 @@ class CustomTableCard extends Card
      *
      * @var string
      */
-    public $width = 'full';
+    public $width = '1/2';
 
     public function __construct(array $header = [], array $data = [], string $title = '', array $viewall = [])
     {

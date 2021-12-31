@@ -2,12 +2,12 @@
 
 namespace Mako\CustomTableCard\Table;
 
-use Laravel\Nova\Makeable;
+//use Laravel\Nova\Makeable;
 use Mako\CustomTableCard\ToArrayInterface;
 
 class Row implements ToArrayInterface
 {
-    use Makeable;
+//    use Makeable;
 
     public $columns;
 
